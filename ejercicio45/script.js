@@ -1,0 +1,1 @@
+// 45. Hacer una función que reciba un arreglo y que elimine el último elemento del arreglo.

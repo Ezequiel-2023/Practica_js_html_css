@@ -1,0 +1,1 @@
+// 16. Hacer un programa que permita ingresar 2 textos, luego concatenar el más corto al más largo al inicio y al final, pero con el texto corto al revés al final.

@@ -1,0 +1,1 @@
+// 35. Crear un programa que reciba 10 números y al finalizar indique cuál es el mayor y cuál es el menor.

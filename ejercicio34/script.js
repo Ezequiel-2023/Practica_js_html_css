@@ -1,0 +1,1 @@
+// 34. Crear un programa que solicite 10 números y los guarde en un arreglo. Al finalizar debe imprimir el arreglo.

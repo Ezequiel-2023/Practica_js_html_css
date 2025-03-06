@@ -1,0 +1,1 @@
+// 21. Escriba un programa que reciba el mensaje codificado del ejercicio anterior y obtenga el mensaje original.

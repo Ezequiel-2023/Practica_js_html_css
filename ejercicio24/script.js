@@ -1,0 +1,1 @@
+// 24. Escribir un programa que simule el lanzamiento de dos dados y permita al usuario adivinar si la suma será par o impar.

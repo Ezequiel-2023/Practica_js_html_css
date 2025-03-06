@@ -1,0 +1,1 @@
+// 33. Llevar a cabo un programa el cual tenga guardados los días de la semana en un arreglo y que permita realizar consultas al arreglo.

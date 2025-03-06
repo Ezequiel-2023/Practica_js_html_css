@@ -1,0 +1,1 @@
+// 31. Escriba una función llamada "calcular_potencia" que reciba dos números enteros positivos como parámetros: la base y el exponente. Utiliza recursividad para calcular la potencia.

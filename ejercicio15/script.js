@@ -1,0 +1,1 @@
+// 15. Hacer una función que valide una contraseña basada en dos textos ingresados, asegurando que incluya dos números, una letra mayúscula y mínimo 6 caracteres.

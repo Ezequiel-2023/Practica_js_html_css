@@ -1,0 +1,46 @@
+
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ejercicio 2</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <div class="container text-center">
+            <h1>Ejercicio 2</h1>
+            <hr>
+            <p>
+                <br> Escribir un programa que permita jugar “Piedra, Papel y Tijera” 
+                <br> contra la computadora el jugador debe escribir su nombre y elijir una opcion
+                <br> Debe mostrarse la opcion elejida y el ganador.
+            </p>
+        </div>
+        <div class="card">
+            <form action="">
+            <label class="labelNombre" for="nombre">Ingresa tu nombre</label>
+            <input class="nombre" id="nombre" type="text" placeholder="Tu Nombre" required>
+            </form>
+            <div class="opciones ">
+                <h3>Elije una opcion</h3>
+                <input  type="radio" id="piedra" name="choice" value="piedra">
+                <label for="piedra">
+                    <img src="img/piedra.webp" alt="Piedra" width="100px">
+                </label>
+                <input type="radio" id="papel" name="choice" value="papel">
+                <label for="papel">
+                    <img src="img/papel.webp" alt="papel" width="100px">
+                </label>
+                <input type="radio" id="tijera" name="choice" value="tijera">
+                <label for="tijera">
+                    <img src="img/tijera.svg" alt="Piedra" width="100px">
+                </label>
+                <button id="button" type="button">Jugar</button>
+            </div>
+        </div>
+        <div class="interHTML" id="interHTML"></div>
+        <script src="script.js"></script>
+  </body>
+  </html>
+  

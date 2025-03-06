@@ -1,0 +1,76 @@
+
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      background-color: blanchedalmond;
+  }
+
+  h1 {
+      color: #333;
+      padding: 2rem;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+  }
+
+  .card {
+    width: 300px;  /* Ajusta el ancho */
+    max-width: 90%; /* Para que no se desborde en pantallas pequeñas */
+    margin: 0 auto; /* Centrar la tarjeta */
+    padding: 3rem ;
+    border-radius: 2rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .button {
+    border-radius: 2rem;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    background-color: rgb(44, 44, 255);
+    padding: 5px;
+    width: 150px; /* Ajusta el tamaño del botón */
+    margin-top: 15px; /* Espaciado con los inputs */
+  }
+
+  .button:hover{
+    background-color: rgb(109, 168, 219);
+  }
+
+
+  form{
+    text-align: center;
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    padding-block: 1rem;
+  }
+
+  label{
+    color: blue;
+    text-align: center;
+    padding: 5px;
+
+  }
+
+  input{
+    width: 80px; /* Ajustar ancho */
+    background-color: burlywood;
+    padding: 5px;
+    border: 1px solid black; /* Para mayor claridad */
+  }
+
+  .iterHTML{
+   color: rgb(0, 0, 0);
+  }
+
+
+
+  

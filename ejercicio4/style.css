@@ -1,0 +1,64 @@
+
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+  }
+
+  h1 p br{
+      color: #333;
+      padding: 8rem;
+  }
+  
+  input{
+    border: 1px solid black;
+  }
+
+  .card{
+    background-color: #d6e0c1;
+    align-items: center;
+    width: 300px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .buttonArray{
+    border-radius: 2rem;
+    color: white;
+    background-color: #1465bb;
+    cursor: pointer;
+
+  }
+
+  .buttonArray:hover{
+    background-color:#2196f3 ;
+  }
+
+  .buttonReverse{
+    border-radius: 2rem;
+    color: white;
+    background-color: #006414;
+    cursor: pointer;
+  }
+
+  .buttonReverse:hover{
+    background-color:#009929 ;
+  }
+
+  .buttonFrase{
+    border-radius: 2rem;
+    color: white;
+    background-color: #bd0003;
+    cursor: pointer;
+  }
+  .buttonF.buttonFrase{
+    background-color:#ff0000 ;
+  }
+
+  .resultado{
+    padding: 3rem;
+    text-align: center;
+  }

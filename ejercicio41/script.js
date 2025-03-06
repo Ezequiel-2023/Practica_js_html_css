@@ -1,0 +1,1 @@
+// 41. Hacer una función que reciba un número y llene un arreglo con números aleatorios.

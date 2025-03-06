@@ -1,0 +1,1 @@
+// 9. Escribir un programa que revise si un número ingresado por el usuario es consecutivo o no.

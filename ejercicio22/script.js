@@ -1,0 +1,1 @@
+// 22. Escriba un programa que genere un número aleatorio entre 1 y 10 y permita al usuario adivinarlo en 1 a 3 intentos.

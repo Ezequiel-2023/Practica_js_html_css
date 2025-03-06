@@ -1,0 +1,1 @@
+// 48. Hacer una función que reciba un arreglo y que devuelva un arreglo con un formato definido.

@@ -1,0 +1,1 @@
+// 25. Escribir un programa que genere un arreglo de longitud aleatoria y en cada posición guarde otro arreglo también de longitud aleatoria.

@@ -1,0 +1,1 @@
+// 26. Escriba una función llamada "calcular_promedio" que pida 10 números vía prompt y devuelva el promedio de esos números.

@@ -1,0 +1,46 @@
+
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+  }
+
+  h1 p br {
+      color: #333;
+      padding: 3rem;
+  }
+
+  .card{
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 90%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color:#e1e3e1 ;
+  }
+  
+  button{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #2196f3;
+    border-radius: 1rem;
+   
+  }
+  button:hover{
+    background-color: #1465bb;
+  }
+
+  input{
+    border: 1px solid #195e0b ;
+   
+  }
+
+  .respuesta{
+    color: black;
+
+  }

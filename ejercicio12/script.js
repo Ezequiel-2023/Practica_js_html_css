@@ -1,0 +1,1 @@
+// 12. Escribir una función que genere un arreglo de dimensión n con valores aleatorios, imprima el arreglo y devuelva un string que concatene los valores en orden inverso.

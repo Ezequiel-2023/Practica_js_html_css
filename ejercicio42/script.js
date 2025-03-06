@@ -1,0 +1,1 @@
+// 42. Hacer una función que reciba un arreglo y un valor, la función debe buscar el valor y devolver la posición donde se encuentra.

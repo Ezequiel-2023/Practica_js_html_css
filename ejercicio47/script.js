@@ -1,0 +1,1 @@
+// 47. Hacer una función que reciba un arreglo, una posición y un dato. La función debe insertar el dato en una posición definida.

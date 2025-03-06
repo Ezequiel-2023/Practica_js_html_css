@@ -1,0 +1,1 @@
+// 11. Escribir un programa que permita al usuario ingresar un número, genere un arreglo de números aleatorios y luego muestre el máximo, mínimo y promedio.

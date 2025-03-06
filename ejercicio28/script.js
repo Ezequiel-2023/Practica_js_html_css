@@ -1,0 +1,1 @@
+// 28. Hacer un programa que calcule el índice de masa corporal (IMC). Se debe utilizar una función para calcularlo, esta debe recibir dos parámetros: el peso en libras y la altura en pulgadas de una persona.

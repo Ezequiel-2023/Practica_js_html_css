@@ -1,0 +1,1 @@
+// 23. Escriba un programa que solicite al usuario cinco números y verifique si la distancia entre todos los números es igual.

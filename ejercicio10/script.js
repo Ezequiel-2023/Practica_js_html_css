@@ -1,0 +1,1 @@
+// 10. Escribir un programa que encuentre todos los divisores de un número ingresado por el usuario.

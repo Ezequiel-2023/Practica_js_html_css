@@ -1,0 +1,1 @@
+// 43. Hacer una función que reciba un arreglo y una posición, la función debe retornar el contenido en esa posición.

@@ -1,0 +1,61 @@
+
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+  }
+
+  h1 {
+      color: #333;
+      padding: 2rem;
+  }
+
+  p{
+    padding: 2rem;
+  }
+
+  .card{
+    background-color:#F4F8D3 ;
+    border-radius: 3rem;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem ;
+  }
+
+
+  
+  .nombre{
+    background-color: rgb(221, 217, 217);
+    color: rgb(12, 12, 12);
+  }
+
+  .labelNombre{
+    color:#A02334;
+  }
+
+  button{
+    background-color:#73C7C7;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+
+  input{
+    border: 1px solid black;
+  }
+
+  button:hover{
+    background-color:#A6F1E0 ;
+  }
+
+   .cards{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .interHTML {
+    margin-top: 20px;
+}
+  
