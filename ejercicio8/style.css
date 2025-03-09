@@ -9,3 +9,36 @@
       color: #333;
   }
   
+  input{
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    }
+  
+    .card{
+      padding: 2rem;
+      max-width: 90%;
+      width: 330px;
+      background-color: #e0cfbd;
+      margin: 20px auto;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+  
+    button{
+      cursor: pointer;
+      border-radius: 1rem;
+      text-align: center;
+      color: white;
+      background-color: #008ce7;
+      margin-top: 1rem;
+      align-self: center;
+     
+    }
+  
+    button:hover{
+      background-color: #2196f3;
+    }

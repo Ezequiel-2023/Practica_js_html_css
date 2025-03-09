@@ -12,7 +12,7 @@ const ejercicios = [
   `// 6. Escribir un programa que solicite al usuario una cantidad indefinida de números, los guarde en un array, y al ingresar 'suma' o 'multiplicación', se muestre el resultado.`,
   `// 7. Hacer una función que acepte dos números como argumentos y retorne 1 si la suma de los números es un número primo, de lo contrario, retorna 0.`,
   `// 8. Escribir una función que reciba una frase como argumento y retorne el conteo de vocales.`,
-  `// 9. Escribir un programa que revise si un número ingresado por el usuario es consecutivo o no.`,
+  `// 9. Escribir un programa que pida al usuario ingresar al menos 3 a 5 números y determine si forman una secuencia consecutiva o no.`,
   `// 10. Escribir un programa que encuentre todos los divisores de un número ingresado por el usuario.`,
   `// 11. Escribir un programa que permita al usuario ingresar un número, genere un arreglo de números aleatorios y luego muestre el máximo, mínimo y promedio.`,
   `// 12. Escribir una función que genere un arreglo de dimensión n con valores aleatorios, imprima el arreglo y devuelva un string que concatene los valores en orden inverso.`,
