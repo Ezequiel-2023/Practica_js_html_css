@@ -8,4 +8,38 @@
   h1 {
       color: #333;
   }
+  .card{
+    padding: 2rem;
+    max-width: 90%;
+    width: 300px;
+    background-color: #e0cfbd;
+    margin: 20px auto;
+    border-radius: 2rem;
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Coloca el label y el botón en una columna (uno debajo del otro) */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 280px; /* Altura del contenedor para centrar verticalmente */
+      gap: 1rem;
+    }
+
+
+
+  button{
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #008ce7;
+    margin-top: 1rem;
+    width: 80px;
+  }
+
+  button:hover{
+    background-color: #2196f3;
+  }
+
+  .resultado{
+    margin-top: 1rem;
+  }
   

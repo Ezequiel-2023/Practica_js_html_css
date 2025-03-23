@@ -53,6 +53,8 @@ const ejercicios = [
   `// 47. Hacer una función que reciba un arreglo, una posición y un dato. La función debe insertar el dato en una posición definida.`,
   `// 48. Hacer una función que reciba un arreglo y que devuelva un arreglo con un formato definido.`,
   `// 49. Hacer un programa que haga uso de las funciones anteriores y manipule una matriz 3x3.`
+  `// 50. Hacer un programa que que consuma la API  https://dog.ceo/dog-api/` 
+  `// 51. Hacer un programa que que consuma la API https://docs.potterdb.com/es/apis/rest#recursos  Potter DB:`
 ];
 
 // Función para crear los archivos de cada ejercicio
