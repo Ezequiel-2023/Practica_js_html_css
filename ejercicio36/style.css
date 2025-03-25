@@ -1,0 +1,116 @@
+
+body {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    background: url('pokemon.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    margin: 0; /* Elimina cualquier margen que pueda reducir el espacio del fondo */
+    height: 100vh; /* Asegura que el cuerpo ocupe el tamaño completo del viewport */
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 20px;
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+    display: block !important;
+    visibility: visible !important;
+}
+
+
+.buttonResult {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonResult:hover {
+    background: #0056b3;
+}
+
+.carPokemon{
+    width: 75%;
+    max-width: 250px;
+    max-height: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+img{
+    width: 90%;
+    max-width: 150px;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap; /* Para que pasen a la siguiente línea si no caben */
+    gap: 10px; /* Espacio entre botones */
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0;
+}
+
+.buttonDetalles {
+    border-radius: 2rem;
+    color: white;
+    background-color: #006414;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 5px; /* Espaciado alrededor de cada botón */
+    text-align: center;
+    border: none;
+}
+
+.buttonDetalles:hover{
+    background-color:#009929 ;
+    
+}
+
+.cargando {
+    display: none;
+    margin-top: 15px;
+}
+
+.spinner {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ajustar imagen */
+.resultado img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}

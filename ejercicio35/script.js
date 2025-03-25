@@ -5,7 +5,6 @@ let cargando = document.getElementById("cargando");
 
 const urlBase = "https://api.potterdb.com/v1/characters";  
 
-//  Función para cargar los personajes en el <select>
 const cargarPersonajes = async () => {
     try {
         const response = await axios.get(urlBase);
@@ -16,10 +15,10 @@ const cargarPersonajes = async () => {
         }
         personajesSelect.forEach((personaje) => {
             const option = document.createElement("option");
-            option.value = personaje.id; // ID del personaje
+            option.value = personaje.id; 
             option.textContent = personaje.attributes.name || "Nombre no disponible"; // Manejar valores vacíos
-            console.log("Se creó la opción: ", option); // Confirmar opción creada
-            select.appendChild(option); // Agregar al <select>
+            console.log("Se creó la opción: ", option); 
+            select.appendChild(option); 
             console.log("Opciones dentro del <select>: ", select.innerHTML);
 
         });
