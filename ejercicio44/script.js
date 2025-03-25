@@ -1,1 +1,0 @@
-// 44. Hacer una función que reciba un arreglo y un dato, la función debe agregar el dato al final del arreglo.

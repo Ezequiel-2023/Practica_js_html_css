@@ -1,1 +1,0 @@
-// 38. Crear un programa que permita ingresar 9 números en una matriz de 3x3 y luego rotar las filas por las columnas (transponer la matriz).

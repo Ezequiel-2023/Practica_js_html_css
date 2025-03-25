@@ -1,1 +1,0 @@
-// 40. Hacer una función que genere un número aleatorio.

@@ -1,1 +1,0 @@
-// 46. Hacer una función que reciba un arreglo y elimine el primer dato del arreglo.

@@ -1,1 +1,0 @@
-// 37. Crear un programa que tenga un arreglo con 10 números aleatorios, luego permita ingresar un número y verifique si el número existe en el arreglo.

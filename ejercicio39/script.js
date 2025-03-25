@@ -1,1 +1,0 @@
-// 39. Hacer una función que reciba un número y que devuelva un arreglo vacío de ese tamaño.
