@@ -71,6 +71,9 @@ node generar_ejercicios_web.js
 
 💡 **¡Y muchos más ejercicios interesantes para practicar!**
 
+ - API  https://dog.ceo/dog-api 
+ - API https://docs.potterdb.com/es/apis/rest#recursos  
+ - API  https://pokeapi.co
 ---
 
 ### 🏆 ¿Listo para empezar?  

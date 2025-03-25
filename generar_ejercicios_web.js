@@ -37,24 +37,9 @@ const ejercicios = [
   `// 31. Escriba una función llamada "calcular_potencia" que reciba dos números enteros positivos como parámetros: la base y el exponente. Utiliza recursividad para calcular la potencia.`,
   `// 32. Escriba una función recursiva que calcule el factorial de un número entero.`,
   `// 33. Llevar a cabo un programa el cual tenga guardados los días de la semana en un arreglo y que permita realizar consultas al arreglo.`,
-  `// 34. Crear un programa que solicite 10 números y los guarde en un arreglo. Al finalizar debe imprimir el arreglo.`,
-  `// 35. Crear un programa que reciba 10 números y al finalizar indique cuál es el mayor y cuál es el menor.`,
-  `// 36. Crear un programa que tenga dos arreglos de 10 posiciones llenados con números aleatorios. Luego debe crear un tercer arreglo con la suma de los dos anteriores.`,
-  `// 37. Crear un programa que tenga un arreglo con 10 números aleatorios, luego permita ingresar un número y verifique si el número existe en el arreglo.`,
-  `// 38. Crear un programa que permita ingresar 9 números en una matriz de 3x3 y luego rotar las filas por las columnas (transponer la matriz).`,
-  `// 39. Hacer una función que reciba un número y que devuelva un arreglo vacío de ese tamaño.`,
-  `// 40. Hacer una función que genere un número aleatorio.`,
-  `// 41. Hacer una función que reciba un número y llene un arreglo con números aleatorios.`,
-  `// 42. Hacer una función que reciba un arreglo y un valor, la función debe buscar el valor y devolver la posición donde se encuentra.`,
-  `// 43. Hacer una función que reciba un arreglo y una posición, la función debe retornar el contenido en esa posición.`,
-  `// 44. Hacer una función que reciba un arreglo y un dato, la función debe agregar el dato al final del arreglo.`,
-  `// 45. Hacer una función que reciba un arreglo y que elimine el último elemento del arreglo.`,
-  `// 46. Hacer una función que reciba un arreglo y elimine el primer dato del arreglo.`,
-  `// 47. Hacer una función que reciba un arreglo, una posición y un dato. La función debe insertar el dato en una posición definida.`,
-  `// 48. Hacer una función que reciba un arreglo y que devuelva un arreglo con un formato definido.`,
-  `// 49. Hacer un programa que haga uso de las funciones anteriores y manipule una matriz 3x3.`
-  `// 50. Hacer un programa que que consuma la API  https://dog.ceo/dog-api/` 
-  `// 51. Hacer un programa que que consuma la API https://docs.potterdb.com/es/apis/rest#recursos  Potter DB:`
+  `// 34. Hacer un programa que que consuma la API  https://dog.ceo/dog-api/` 
+  `// 35. Hacer un programa que que consuma la API https://docs.potterdb.com/es/apis/rest#recursos`
+  `// 36. Hacer un programa que que consuma la API https://pokeapi.co/  `
 ];
 
 // Función para crear los archivos de cada ejercicio
