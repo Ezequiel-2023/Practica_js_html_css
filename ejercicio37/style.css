@@ -1,0 +1,65 @@
+
+body {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    background: url('body.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    margin: 0; /* Elimina cualquier margen que pueda reducir el espacio del fondo */
+    height: 100vh; /* Asegura que el cuerpo ocupe el tamaño completo del viewport */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Oscurece un poco */
+    backdrop-filter: blur(80px); /* Aplica desenfoque */
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.buttonResult {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonResult:hover {
+    background: #0056b3;
+}
+
+.carRick {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas salten a una nueva fila cuando no hay espacio */
+    justify-content: space-around; /* Espacia las tarjetas uniformemente */
+    gap: 15px; /* Espaciado entre las tarjetas */
+    color: white;
+}
+
+.card img{
+    width: 200px; /* Define un ancho fijo para las tarjetas */
+    background: rgb(7, 7, 7);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

@@ -40,7 +40,12 @@ const ejercicios = [
   `// 34. Hacer un programa que que consuma la API  https://dog.ceo/dog-api/` 
   `// 35. Hacer un programa que que consuma la API https://docs.potterdb.com/es/apis/rest#recursos`
   `// 36. Hacer un programa que que consuma la API https://pokeapi.co/  `
-];
+  `// 37. Hacer un programa que que consuma la API https://rickandmortyapi.com/documentation  ` 
+   `// 38. Hacer un programa que que consuma la API  https://web.dragonball-api.com/ ` 
+   `// 39. Hacer un programa que que consuma la API https://fakeapi.platzi.com/en  Reto Incluir Carrito de Compra y CRUD ` 
+   `// 40. Hacer un programa de presupuesto puedes buscar sugerencias en Google o solicitar una sugerencia en la  IA ` 
+
+]; 
 
 // Función para crear los archivos de cada ejercicio
 ejercicios.forEach((ejercicio, index) => {

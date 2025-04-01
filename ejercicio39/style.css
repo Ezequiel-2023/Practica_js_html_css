@@ -1,0 +1,162 @@
+.titulo{ 
+    padding: 2.5rem;
+   
+}
+
+body{
+    background-color: #f5e1c8;
+}
+
+.card {
+    width: 180px; /* Define un ancho fijo para las tarjetas */
+    height: 340px;
+    background: #d8e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0);
+    display: inline-block;
+    vertical-align: top; /* Asegura que se alineen correctamente */
+}
+
+.resultado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Espaciado entre tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+}
+
+
+img {
+    width: 50px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+ .buttonAgregar {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonAgregar:hover {
+    background: #0056b3;
+}
+
+.buttonCar {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px; /* Posiciona el elemento a 10 píxeles desde la parte superior de la ventana del navegador */
+    right: 10px; /* Posiciona el elemento a 10 píxeles desde el borde derecho de la ventana del navegador */
+}
+
+.buttonCar:after {
+    content: attr(data-count);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    display: none; /* Oculto por defecto */
+}
+
+
+.carBuy{
+    padding: 0.5rem;
+    margin: 20px auto;
+    border-radius: 2rem;
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Coloca el label y el botón en una columna (uno debajo del otro) */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    gap: 1rem;
+    position: fixed;
+    top: 10%; /* Posición en el 50% desde arriba */
+    right: 5%; /* Posición en el 50% desde la izquierda */
+}
+
+table, th, td {
+    border:1px solid black;
+    width:100%
+  }
+
+
+  .buttonEliminar {
+    background: #e70000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonEliminar:hover {
+    background: #ff0000;
+}
+
+
+.buttonFinalizar {
+    background:#009929;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonFinalizar:hover {
+    background:#36b443;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+.alert {
+    max-width: 60%;
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
